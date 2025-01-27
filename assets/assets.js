@@ -85,21 +85,25 @@ export const workData = [
         title: 'Euphoria',
         description: 'Front-end project',
         bgImage: work1,
+        url:' https://vathsala-h.github.io/Europia/'
     },
     {
         title: 'Exclusive',
         description: 'React Front-end project',
         bgImage: work2,
+        url:'https://exclusive-virid.vercel.app/'
     },
     {
         title: 'ByWay',
         description: 'Learning site-Next JS',
         bgImage: work3,
+        url:'https://byway-next.netlify.app/'
     },
     {
         title: 'UI/UX designing',
         description: 'UI/UX Design',
         bgImage: work4,
+        url:'#'
     },
 ]
 

@@ -1,6 +1,7 @@
 import { workData, assets } from '@/assets/assets'; // Assuming the data is imported correctly
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import { motion } from "motion/react"
 
 const Work = ({ isDarkMode }) => {
@@ -38,7 +39,7 @@ const Work = ({ isDarkMode }) => {
                                 <p className='text-sm text-gray-700'>{project.description}</p>
                             </div>
                             <div className='border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition'>
-                                <Image src={assets.send_icon} alt="send icon" className="w-5" />
+                                <Link href ={project.url}><Image src={assets.send_icon} alt="send icon" className="w-5" /></Link>
                             </div>
                         </div>
                     </motion.div>

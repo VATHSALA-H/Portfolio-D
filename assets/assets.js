@@ -82,22 +82,22 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Euphoria',
-        description: 'Front-end project',
+        title: 'UHG',
+        description: 'Data Ecosystems',
         bgImage: work1,
         url:' https://vathsala-h.github.io/Europia/'
     },
     {
-        title: 'Exclusive',
+        title: 'Timesheet ',
         description: 'React Front-end project',
         bgImage: work2,
-        url:'https://exclusive-virid.vercel.app/'
+        url:''
     },
     {
-        title: 'ByWay',
-        description: 'Learning site-Next JS',
+        title: 'Customer Purchase',
+        description: 'Analytics Pipeline',
         bgImage: work3,
-        url:'https://byway-next.netlify.app/'
+        url:''
     },
     {
         title: 'UI/UX designing',
@@ -115,9 +115,9 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'React Js, Snowflake, AWS,Python,Java,Spring Boot,' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'MCA in Computer Application' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 real-time projects' }
 ];
 
 export const toolsData = [

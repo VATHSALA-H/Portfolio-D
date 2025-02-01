@@ -32,9 +32,9 @@ const About = ({ isDarkMode }) => {
                     transition={{ duration: 0.6, delay: 0.8 }}
                     className='flex-1'>
                     <p className='mb-10 max-w-2xl font-Ovo'>
-                        I am a software engineer with a passion for building scalable and efficient
-                        systems. I have experience with a wide range of
-                        technologies, including React, Node.js and Next.js.
+                        A highly effective Software Engineer with over 1.5 Year of IT experience specialization in working
+                        with Cloud AWS, Databricks, Snowflake, SQL Server, Python), Data Integration Engineering.
+                        Extensively involved the development project.
                     </p>
                     <motion.ul
                         initial={{ opacity: 0 }}
